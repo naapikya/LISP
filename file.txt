@@ -1,0 +1,6 @@
+(define m 7)
+(set! m (remainder 9 (+ 2 3)))
+(begin (define a (+ 4 (- 50 m) 5 (* 1 5)))
+(define b a)
+(display b)
+(newline))
